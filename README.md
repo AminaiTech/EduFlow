@@ -1,49 +1,44 @@
-# EduFlow | Modern School Management System
+# EduFlow | Official Landing Page
+
+> **Note**: This repository contains the source code for the **EduFlow Landing Page** and School Onboarding Portal. For information regarding the core **EduFlow School Management Engine**, please contact Aminai Tech.
 
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="public/dashboard-preview.png" width="45%" />
-  <img src="public/admin-dashboard.png" width="45%" />
+  <img src="public/dashboard-preview.png" width="45%" style="border-radius: 20px" />
+  <img src="public/admin-dashboard.png" width="45%" style="border-radius: 20px" />
 </p>
 
 <p align="center">
-  <i>EduFlow Dashboard Overview and Admin Analytical Interface</i>
+  <i>EduFlow Landing Page Showcase and Platform Previews</i>
 </p>
-
-
-
-EduFlow is a high-performance, multi-tenant school management platform designed for modern educational institutions. Built with **Next.js 16**, **Tailwind CSS 4**, and **Framer Motion**, it provides a stunning, responsive, and intuitive interface for managing complex academic operations.
-
-## 🚀 Key Features
-
-### 🏢 Multi-Tenant Architecture
-Manage multiple schools, branches, or campuses from a single unified dashboard. Each institution enjoys total data isolation and custom configuration options.
-
-### 📊 Academic Excellence
-Streamline academic years, terms, and sections. Automated scheduling and grade tracking allow educators to focus on what matters most—teaching.
-
-### 👥 Comprehensive Student Directory
-Detailed student profiles including academic history, attendance, and region-specific metadata (e.g., Nigerian State and LGA tracking).
-
-### 🔐 Robust Security & Roles
-Fine-grained access control with dedicated portals for:
-- **Administrators**: Full system control and analytics.
-- **Staff/Teachers**: Classroom management and grading.
-- **Students**: Academic progress and resources.
-- **Parents**: Real-time tracking of ward performance.
-
-### 📱 Responsive & Performant
-A mobile-first design ensuring the platform is accessible on any device, from desktops to smartphones, with blazing-fast load times.
 
 ---
 
-## 🛠️ Technology Stack
+## 🚀 The Digital Backbone of Modern Education
 
+This is the official landing page for **EduFlow**, a next-generation school management platform developed by [Aminai Tech](https://aminaitech.com). This site serves as the primary gateway for educational institutions to explore features, understand our mission, and begin their administrative transformation through our premium onboarding flow.
+
+### 🏢 About the EduFlow Platform
+EduFlow was founded on a simple insight: many educational institutions are limited by outdated, paper-based processes. The core platform (accessible via the [Login](https://app.eduflow.com) portal) replaces these inefficiencies with a streamlined, fully digital ecosystem.
+
+## 🌍 Strategic SDG Alignment
+
+At Aminai Tech, we intentionally align the EduFlow ecosystem with the **United Nations Sustainable Development Goals**:
+- **SDG 4: Quality Education** - Standardizing digital access and administrative excellence.
+- **SDG 12: Responsible Consumption** - Eliminating paper-heavy processes and saving thousands of trees annually.
+- **SDG 8: Decent Work & Economic Growth** - Streamlining academic management for better operational efficiency.
+- **SDG 9: Industry, Innovation, and Infrastructure** - Building resilient digital infrastructure for the future of Africa.
+
+---
+
+## 🛠️ Technology Stack (Landing Page)
+
+This landing page is built using high-performance modern web technologies to ensure a premium user experience:
 - **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/) + Custom Brand SVGs
 - **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
 
 ---
@@ -51,29 +46,32 @@ A mobile-first design ensuring the platform is accessible on any device, from de
 ## 📂 Project Structure
 
 ```text
-├── public/                 # Static assets & screenshots
+├── public/                 # Static assets and platform previews
 ├── src/
-│   ├── app/                # Next.js App Router (Layouts & Pages)
-│   ├── components/         # Reusable UI components (Hero, Features, Stats, etc.)
-│   └── globals.css         # Global styles and Tailwind directives
-├── static_backup/          # Original HTML/CSS/JS design files
+│   ├── app/                # Next.js App Router
+│   │   ├── onboarding/     # Premium multi-step school registration flow
+│   │   └── layout.tsx / page.tsx
+│   ├── components/         # High-fidelity UI components
+│   │   ├── Hero.tsx        # Dynamic entrance with app download previews
+│   │   ├── About.tsx       # Mission & SDG alignment section
+│   │   ├── Sustainability.tsx # Environmental impact data
+│   │   └── WhatsAppButton.tsx # Context-aware support portal
+│   └── lib/                # Nigerian State/LGA datasets for registration
 └── tailwind.config.ts      # Tailwind configuration
 ```
 
 ---
 
-## ⚡ Getting Started
+## ⚡ Development Setup
 
 ### Prerequisites
-
 - Node.js 18.x or higher
 - npm, yarn, or pnpm
 
 ### Installation
-
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/eduflow-landing.git
+   git clone https://github.com/AminaiTech/EduFlow.git
    ```
 
 2. Install dependencies:
@@ -86,19 +84,10 @@ A mobile-first design ensuring the platform is accessible on any device, from de
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ---
 
-## 📈 Roadmap
+## 📄 License & Contact
 
-- [ ] Interactive Demo Sandbox
-- [ ] Multi-language Support (i18n)
-- [ ] Dark/Light Mode Toggle
-- [ ] Integration with EduFlow Backend API
+© 2026 [Aminai Technologies](https://aminaitech.com). All rights reserved.
 
----
-
-## 📄 License
-
-© 2026 Aminai Technologies. All rights reserved. Licensed under the MIT License.
+**Contact:** [aminaitechnology@gmail.com](mailto:aminaitechnology@gmail.com) | [+234 (0) 813 649 0129](tel:+2348136490129)

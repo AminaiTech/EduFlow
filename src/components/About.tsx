@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import {
     Target,
     Leaf,
@@ -45,7 +46,7 @@ export default function About() {
 
                         <div className="space-y-6 text-slate-400 text-lg leading-relaxed">
                             <p>
-                                <span className="text-white font-semibold">EduFlow</span> is a next-generation school management platform developed by <span className="text-white font-semibold">Aminai Tech</span>, a technology startup dedicated to building sustainable digital infrastructure for education.
+                                <span className="text-white font-semibold">EduFlow</span> is a next-generation school management platform developed by <Link href="https://aminaitech.com" target="_blank" className="text-white font-semibold hover:text-indigo-400 transition-colors underline underline-offset-4">Aminai Tech</Link>, a technology startup dedicated to building sustainable digital infrastructure for education.
                             </p>
                             <p>
                                 EduFlow was founded on a simple insight: many educational institutions are limited not by talent or ambition, but by <span className="text-indigo-300">outdated, paper-based processes</span> that slow operations, increase costs, and harm the environment. Our mission is to replace these inefficiencies with a streamlined, fully digital ecosystem that enables schools to operate smarter and more sustainably.
@@ -72,7 +73,7 @@ export default function About() {
                                     Global Impact Alignment
                                 </h3>
                                 <p className="text-slate-400 text-sm mb-8">
-                                    At Aminai Tech, we intentionally align EduFlow with the United Nations Sustainable Development Goals to build greener, more resilient systems.
+                                    At <Link href="https://aminaitech.com" target="_blank" className="text-white hover:text-indigo-400 transition-colors underline underline-offset-4 font-semibold">Aminai Tech</Link>, we intentionally align EduFlow with the United Nations Sustainable Development Goals to build greener, more resilient systems.
                                 </p>
 
                                 <div className="grid grid-cols-2 gap-4">

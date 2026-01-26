@@ -92,7 +92,7 @@ export default function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-                    <p>&copy; 2026 Aminai Technologies. All rights reserved.</p>
+                    <p>&copy; 2026 <Link href="https://aminaitech.com" target="_blank" className="hover:text-white transition-colors">Aminai Technologies</Link>. All rights reserved.</p>
                     <div className="flex gap-8">
                         <Link href="#" className="hover:text-white transition-colors">Documentation</Link>
                         <Link href="#" className="hover:text-white transition-colors">Help Center</Link>

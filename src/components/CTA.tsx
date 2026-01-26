@@ -18,7 +18,7 @@ export default function CTA() {
                             Empower Your School Today
                         </h2>
                         <p className="text-indigo-100 text-lg md:text-xl mb-12 opacity-90">
-                            Ready to scale your educational ecosystem? Join Aminai Tech and streamline your management today.
+                            Ready to scale your educational ecosystem? Join <Link href="https://aminaitech.com" target="_blank" className="text-white font-bold hover:underline">Aminai Tech</Link> and streamline your management today.
                         </p>
                         <form
                             className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto"

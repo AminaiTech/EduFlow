@@ -29,7 +29,7 @@ export default function Navbar() {
 
                 <ul className="hidden md:flex space-x-8 items-center text-sm font-medium text-slate-400">
                     <li><Link href="/#features" className="hover:text-white transition-colors">Excellence</Link></li>
-                    <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
+                    <li><Link href="/#about" className="hover:text-white transition-colors">About Us</Link></li>
                     <li><Link href="/#impact" className="hover:text-white transition-colors">Impact</Link></li>
                     <li><Link href="/#stats" className="hover:text-white transition-colors">Transparency</Link></li>
                     <li><Link href="/onboarding" className="hover:text-white transition-colors">Start Free Trial</Link></li>

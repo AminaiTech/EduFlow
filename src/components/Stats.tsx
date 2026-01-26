@@ -3,15 +3,15 @@
 import { motion } from "framer-motion";
 
 const stats = [
-    { label: "Schools Hosted", value: "1,000+" },
-    { label: "Data Isolation", value: "100%" },
-    { label: "Website Templates", value: "5" },
-    { label: "System Uptime", value: "99.99%" }
+    { label: "Schools Managed", value: "120+" },
+    { label: "Active Students", value: "45k+" },
+    { label: "Paper Saved (Est)", value: "2M+" },
+    { label: "System Uptime", value: "99.9%" }
 ];
 
 export default function Stats() {
     return (
-        <section className="py-20 border-y border-white/5 bg-slate-950/20">
+        <section id="stats" className="py-20 border-y border-white/5 bg-slate-950/20">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
                     {stats.map((stat, index) => (

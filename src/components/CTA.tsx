@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function CTA() {
     return (
-        <section className="py-32">
+        <section id="contact" className="py-32">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -17,7 +18,7 @@ export default function CTA() {
                             Empower Your School Today
                         </h2>
                         <p className="text-indigo-100 text-lg md:text-xl mb-12 opacity-90">
-                            Ready to scale your educational ecosystem? Join Aminai Technology and streamline your multi-tenant management today.
+                            Ready to scale your educational ecosystem? Join Aminai Tech and streamline your management today.
                         </p>
                         <form
                             className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto"
@@ -29,9 +30,12 @@ export default function CTA() {
                                 className="flex-1 bg-white/10 border border-white/20 rounded-2xl px-6 py-4 text-white placeholder:text-white/50 outline-none focus:bg-white/20 transition-all"
                                 required
                             />
-                            <button className="bg-white text-indigo-600 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95">
-                                Join Now
-                            </button>
+                            <Link
+                                href="/onboarding"
+                                className="bg-white text-indigo-600 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95 flex items-center justify-center"
+                            >
+                                Start Free Trial
+                            </Link>
                         </form>
                     </div>
 

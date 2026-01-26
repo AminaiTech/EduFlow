@@ -28,15 +28,22 @@ export default function Navbar() {
                 </Link>
 
                 <ul className="hidden md:flex space-x-8 items-center text-sm font-medium text-slate-400">
-                    <li><Link href="#features" className="hover:text-white transition-colors">Features</Link></li>
-                    <li><Link href="#solutions" className="hover:text-white transition-colors">Solutions</Link></li>
-                    <li><Link href="#about" className="hover:text-white transition-colors">About</Link></li>
+                    <li><Link href="/#features" className="hover:text-white transition-colors">Excellence</Link></li>
+                    <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
+                    <li><Link href="/#impact" className="hover:text-white transition-colors">Impact</Link></li>
+                    <li><Link href="/#stats" className="hover:text-white transition-colors">Transparency</Link></li>
+                    <li><Link href="/onboarding" className="hover:text-white transition-colors">Start Free Trial</Link></li>
+                    <li>
+                        <Link href="https://app.eduflow.com" className="text-slate-400 hover:text-white transition-colors font-semibold mr-2">
+                            Login
+                        </Link>
+                    </li>
                     <li>
                         <Link
-                            href="#"
+                            href="/onboarding"
                             className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-xl transition-all shadow-lg shadow-indigo-500/20 active:scale-95"
                         >
-                            Get Started
+                            Experience EduFlow
                         </Link>
                     </li>
                 </ul>

@@ -2,56 +2,56 @@
 
 import { motion } from "framer-motion";
 import {
-    Building2,
     GraduationCap,
     Users2,
-    ShieldCheck,
-    Smartphone,
-    Zap
+    Zap,
+    FileText,
+    MessageSquare,
+    Wallet
 } from "lucide-react";
 
 const features = [
     {
-        title: "Database Schema Isolation",
-        description: "Each school gets its own isolated database schema for maximum security and total data separation.",
-        icon: Building2,
-        color: "text-blue-400",
-        bg: "bg-blue-400/10"
-    },
-    {
-        title: "Platform Admin Control",
-        description: "Centralized dashboard for superusers to onboard schools, manage domains, and monitor system health.",
-        icon: ShieldCheck,
+        title: "Smart Academic Orchestration",
+        description: "Seamlessly manage terms, class levels, and subjects with an intelligent scheduling system designed for modern schools.",
+        icon: GraduationCap,
         color: "text-indigo-400",
         bg: "bg-indigo-400/10"
     },
     {
-        title: "Dynamic Website Templates",
-        description: "SEO-optimized Next.js templates that automatically adapt to the school's specific sections and branding.",
-        icon: Smartphone,
-        color: "text-cyan-400",
-        bg: "bg-cyan-400/10"
+        title: "Unified Student Records",
+        description: "Comprehensive lifetime profiles for every student, featuring detailed academic history, regional tracking, and demographic insights.",
+        icon: Users2,
+        color: "text-blue-400",
+        bg: "bg-blue-400/10"
     },
     {
-        title: "Automated Onboarding",
-        description: "Instant school setup with automated schema creation and domain provisioning for new tenants.",
+        title: "Automated Staff Workflows",
+        description: "Empower your teachers with automated attendance tracking and smart grading tools that eliminate repetitive paperwork.",
         icon: Zap,
+        color: "text-amber-400",
+        bg: "bg-amber-400/10"
+    },
+    {
+        title: "Instant Progress Reporting",
+        description: "Generate professional, data-rich report cards and academic summaries in seconds. No more end-of-term manual calculations.",
+        icon: FileText,
         color: "text-emerald-400",
         bg: "bg-emerald-400/10"
     },
     {
-        title: "Tenant-Scoped Academics",
-        description: "Manage academic years, terms, and sections with full data isolation between institutions.",
-        icon: GraduationCap,
+        title: "Parent Engagement Portal",
+        description: "Foster total transparency with a dedicated portal for parents to track real-time attendance, grades, and school announcements.",
+        icon: MessageSquare,
         color: "text-purple-400",
         bg: "bg-purple-400/10"
     },
     {
-        title: "Advanced Student Tracking",
-        description: "Comprehensive enrollment management with region-specific fields and multi-step parent profiles.",
-        icon: Users2,
-        color: "text-amber-400",
-        bg: "bg-amber-400/10"
+        title: "Financial Oversight",
+        description: "Keep track of tuition fees, payment histories, and financial standing for every student with a clear, audited dashboard.",
+        icon: Wallet,
+        color: "text-cyan-400",
+        bg: "bg-cyan-400/10"
     }
 ];
 
@@ -66,10 +66,10 @@ export default function Features() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-bold mb-6"
                     >
-                        Built for <span className="text-indigo-500">Excellence</span>
+                        Empowering Your <span className="text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">School Community</span>
                     </motion.h2>
                     <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-                        Every tool you need to transform your educational institution into a modern, data-driven environment.
+                        Move beyond simple management. EduFlow provides the tools to foster excellence, transparency, and growth for every stakeholder.
                     </p>
                 </div>
 

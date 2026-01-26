@@ -73,7 +73,7 @@ export default function Hero() {
                     >
                         <div className="relative z-10 bg-slate-900/50 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-3 shadow-2xl">
                             <Image
-                                src="/dashboard-preview.png"
+                                src="dashboard-preview.png"
                                 alt="EduFlow Dashboard"
                                 width={800}
                                 height={600}

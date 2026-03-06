@@ -15,7 +15,27 @@ export default function Hero() {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-                            Modernizing <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Education</span> Management
+                            Modernizing <span className="relative group cursor-help inline-block">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 relative z-10">Education</span>
+
+                                {/* Image Tooltip Preview on Hover */}
+                                <motion.div
+                                    initial={{ opacity: 0, scale: 0.9, y: 10 }}
+                                    whileHover={{ opacity: 1, scale: 1, y: 0 }}
+                                    className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-[250px] sm:w-[300px] hidden group-hover:block z-50 pointer-events-none"
+                                >
+                                    <div className="bg-slate-900 border border-white/10 p-2 rounded-2xl shadow-2xl backdrop-blur-xl">
+                                        <Image
+                                            src="dashboard-preview.png"
+                                            alt="Preview"
+                                            width={300}
+                                            height={200}
+                                            className="w-full rounded-xl opacity-90"
+                                        />
+                                    </div>
+                                    <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-slate-900 border-b border-r border-white/10 rotate-45" />
+                                </motion.div>
+                            </span> Management
                         </h1>
                         <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-xl">
                             The sustainable <span className="text-white font-semibold">digital backbone</span> for modern educational institutions. Empowering schools with a streamlined ecosystem that eliminates administrative friction and paper-heavy workflows.
@@ -106,9 +126,25 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Mesh Background */}
-            <div className="absolute top-0 right-0 w-1/3 h-1/2 bg-indigo-600/5 blur-[150px] rounded-full pointer-events-none" />
-            <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-cyan-600/5 blur-[150px] rounded-full pointer-events-none" />
+            {/* Animated Mesh Background */}
+            <motion.div
+                animate={{
+                    x: [0, 100, 0],
+                    y: [0, 50, -50, 0],
+                    scale: [1, 1.2, 1]
+                }}
+                transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+                className="absolute top-0 right-0 w-1/3 h-1/2 bg-indigo-600/10 blur-[150px] rounded-full pointer-events-none mix-blend-screen"
+            />
+            <motion.div
+                animate={{
+                    x: [0, -100, 0],
+                    y: [0, -50, 50, 0],
+                    scale: [1, 1.3, 1]
+                }}
+                transition={{ duration: 18, repeat: Infinity, ease: "linear" }}
+                className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-cyan-600/10 blur-[150px] rounded-full pointer-events-none mix-blend-screen"
+            />
         </section>
     );
 }

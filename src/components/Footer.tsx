@@ -65,7 +65,7 @@ export default function Footer() {
                         <ul className="space-y-4 text-slate-500 text-sm font-medium">
                             <li className="flex items-center gap-3">
                                 <Mail size={18} className="text-indigo-500" />
-                                <Link href="mailto:aminaitechnology@gmail.com" className="hover:text-white transition-colors italic">aminaitechnology@gmail.com</Link>
+                                <Link href="mailto:hello@acafort.com" className="hover:text-white transition-colors italic">hello@acafort.com</Link>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone size={18} className="text-indigo-500" />
@@ -90,7 +90,7 @@ export default function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-                    <p>&copy; 2026 <Link href="https://aminaitech.com" target="_blank" className="hover:text-white transition-colors">Aminai Technologies</Link>. All rights reserved.</p>
+                    <p>&copy; 2026 Acafort. All rights reserved.</p>
                     <div className="flex gap-8">
                         <Link href="#" className="hover:text-white transition-colors">Documentation</Link>
                         <Link href="#" className="hover:text-white transition-colors">Help Center</Link>

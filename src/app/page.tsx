@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Stats from "@/components/Stats";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Sustainability />
         <Stats />
         <CTA />
+        <FAQ />
       </main>
       <Footer />
     </div>

@@ -99,7 +99,7 @@ export default function OnboardingPage() {
                 <div className="lg:col-span-2 space-y-8">
                     <div>
                         <Link href="/" className="text-2xl font-bold tracking-tight mb-8 block">
-                            Edu<span className="text-indigo-500">Flow</span>
+                            Aca<span className="text-indigo-500">fort</span>
                         </Link>
                         <h1 className="text-4xl font-bold leading-tight">Register Your <span className="text-indigo-400">Institution</span></h1>
                         <p className="text-slate-400 mt-4 text-lg">Provide your school details to begin the administrative transformation.</p>

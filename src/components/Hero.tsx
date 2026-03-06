@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
+import HeroAnimation from "./HeroAnimation";
 
 export default function Hero() {
     return (
@@ -24,14 +24,10 @@ export default function Hero() {
                                     whileHover={{ opacity: 1, scale: 1, y: 0 }}
                                     className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-[250px] sm:w-[300px] hidden group-hover:block z-50 pointer-events-none"
                                 >
-                                    <div className="bg-slate-900 border border-white/10 p-2 rounded-2xl shadow-2xl backdrop-blur-xl">
-                                        <Image
-                                            src="dashboard-preview.png"
-                                            alt="Preview"
-                                            width={300}
-                                            height={200}
-                                            className="w-full rounded-xl opacity-90"
-                                        />
+                                    <div className="bg-slate-900 border border-white/10 p-2 rounded-2xl shadow-2xl backdrop-blur-xl overflow-hidden h-[160px] relative pointer-events-none">
+                                        <div className="w-[600px] origin-top-left scale-[0.45] sm:scale-[0.5] opacity-90">
+                                            <HeroAnimation />
+                                        </div>
                                     </div>
                                     <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-slate-900 border-b border-r border-white/10 rotate-45" />
                                 </motion.div>
@@ -93,14 +89,7 @@ export default function Hero() {
                         className="relative"
                     >
                         <div className="relative z-10 bg-slate-900/50 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-3 shadow-2xl transition-all hover:shadow-indigo-500/20">
-                            <Image
-                                src="dashboard-preview.png"
-                                alt="Acafort Dashboard"
-                                width={800}
-                                height={600}
-                                className="rounded-[2rem] w-full h-auto"
-                                priority
-                            />
+                            <HeroAnimation />
                         </div>
 
                         {/* Floating Elements */}

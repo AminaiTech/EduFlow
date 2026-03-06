@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EduFlow | Modern School Management System",
-  description: "EduFlow is a comprehensive, multi-tenant school management system designed to streamline academic operations, student tracking, and administrative tasks.",
+  title: "Acafort | Academic Fortress — Modern School Management System",
+  description: "Acafort (Academic Fortress) is a comprehensive, multi-tenant school management system designed to streamline academic operations, student tracking, and administrative tasks.",
 };
 
 export default function RootLayout({

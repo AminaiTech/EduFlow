@@ -69,7 +69,7 @@ export default function Features() {
                         Empowering Your <span className="text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">School Community</span>
                     </motion.h2>
                     <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-                        Move beyond simple management. EduFlow provides the tools to foster excellence, transparency, and growth for every stakeholder.
+                        Move beyond simple management. Acafort provides the tools to foster excellence, transparency, and growth for every stakeholder.
                     </p>
                 </div>
 

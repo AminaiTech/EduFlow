@@ -46,13 +46,13 @@ export default function About() {
 
                         <div className="space-y-6 text-slate-400 text-lg leading-relaxed">
                             <p>
-                                <span className="text-white font-semibold">EduFlow</span> is a next-generation school management platform developed by <Link href="https://aminaitech.com" target="_blank" className="text-white font-semibold hover:text-indigo-400 transition-colors">Aminai Tech</Link>, a technology startup dedicated to building sustainable digital infrastructure for education.
+                                <span className="text-white font-semibold">Acafort</span> is a next-generation school management platform developed by <Link href="https://aminaitech.com" target="_blank" className="text-white font-semibold hover:text-indigo-400 transition-colors">Aminai Tech</Link>, a technology startup dedicated to building sustainable digital infrastructure for education.
                             </p>
                             <p>
-                                EduFlow was founded on a simple insight: many educational institutions are limited not by talent or ambition, but by <span className="text-indigo-300">outdated, paper-based processes</span> that slow operations, increase costs, and harm the environment. Our mission is to replace these inefficiencies with a streamlined, fully digital ecosystem that enables schools to operate smarter and more sustainably.
+                                Acafort was founded on a simple insight: many educational institutions are limited not by talent or ambition, but by <span className="text-indigo-300">outdated, paper-based processes</span> that slow operations, increase costs, and harm the environment. Our mission is to replace these inefficiencies with a streamlined, fully digital ecosystem that enables schools to operate smarter and more sustainably.
                             </p>
                             <p>
-                                By digitizing student records, academic workflows, administrative approvals, and reporting processes, EduFlow significantly reduces reliance on paper, minimizes duplication of records, and lowers operational waste. This transition not only improves efficiency and data accuracy but also supports environmentally responsible practices within educational institutions.
+                                By digitizing student records, academic workflows, administrative approvals, and reporting processes, Acafort significantly reduces reliance on paper, minimizes duplication of records, and lowers operational waste. This transition not only improves efficiency and data accuracy but also supports environmentally responsible practices within educational institutions.
                             </p>
                             <p className="border-l-2 border-indigo-500 pl-6 italic bg-indigo-500/5 py-4 rounded-r-2xl">
                                 By removing administrative friction and paper-heavy processes, we allow educators to focus on what truly matters: <span className="text-white">delivering quality education and mentoring the next generation of leaders.</span>
@@ -73,7 +73,7 @@ export default function About() {
                                     Global Impact Alignment
                                 </h3>
                                 <p className="text-slate-400 text-sm mb-8">
-                                    At <Link href="https://aminaitech.com" target="_blank" className="text-white hover:text-indigo-400 transition-colors font-semibold">Aminai Tech</Link>, we intentionally align EduFlow with the United Nations Sustainable Development Goals to build greener, more resilient systems.
+                                    At <Link href="https://aminaitech.com" target="_blank" className="text-white hover:text-indigo-400 transition-colors font-semibold">Aminai Tech</Link>, we intentionally align Acafort with the United Nations Sustainable Development Goals to build greener, more resilient systems.
                                 </p>
 
                                 <div className="grid grid-cols-2 gap-4">

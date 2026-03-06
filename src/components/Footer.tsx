@@ -15,7 +15,7 @@ export default function Footer() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     <div className="space-y-6">
                         <Link href="/" className="text-2xl font-bold tracking-tight block">
-                            Edu<span className="text-indigo-500">Flow</span>
+                            Aca<span className="text-indigo-500">fort</span>
                         </Link>
                         <p className="text-slate-500 leading-relaxed text-sm">
                             Standardizing education management through innovation and global excellence. Empowering institutions across Africa.
@@ -40,10 +40,10 @@ export default function Footer() {
                         <div className="pt-4 flex flex-col gap-3">
                             <p className="text-[10px] font-bold text-slate-600 uppercase tracking-[0.2em]">App coming soon</p>
                             <div className="flex gap-3">
-                                <Link href="https://app.eduflow.com" className="opacity-50 hover:opacity-100 transition-opacity">
+                                <Link href="https://app.acafort.com" className="opacity-50 hover:opacity-100 transition-opacity">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" className="h-8" />
                                 </Link>
-                                <Link href="https://app.eduflow.com" className="opacity-50 hover:opacity-100 transition-opacity">
+                                <Link href="https://app.acafort.com" className="opacity-50 hover:opacity-100 transition-opacity">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store" className="h-8" />
                                 </Link>
                             </div>
@@ -84,7 +84,7 @@ export default function Footer() {
                             <li><Link href="/onboarding" className="hover:text-white transition-colors">Registration Form</Link></li>
                             <li><Link href="#" className="hover:text-white transition-colors">Privacy & Security</Link></li>
                             <li><Link href="#" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                            <li><Link href="https://app.eduflow.com" className="hover:text-white transition-colors">Admin Login</Link></li>
+                            <li><Link href="https://app.acafort.com" className="hover:text-white transition-colors">Admin Login</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ export default function Navbar() {
         >
             <nav className="container mx-auto px-6 flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold tracking-tight">
-                    Edu<span className="text-indigo-500">Flow</span>
+                    Aca<span className="text-indigo-500">fort</span>
                 </Link>
 
                 <ul className="hidden md:flex space-x-8 items-center text-sm font-medium text-slate-400">
@@ -34,7 +34,7 @@ export default function Navbar() {
                     <li><Link href="/#stats" className="hover:text-white transition-colors">Transparency</Link></li>
                     <li><Link href="/onboarding" className="hover:text-white transition-colors">Start Free Trial</Link></li>
                     <li>
-                        <Link href="https://app.eduflow.com" className="text-slate-400 hover:text-white transition-colors font-semibold mr-2">
+                        <Link href="https://app.acafort.com" className="text-slate-400 hover:text-white transition-colors font-semibold mr-2">
                             Login
                         </Link>
                     </li>
@@ -43,7 +43,7 @@ export default function Navbar() {
                             href="/onboarding"
                             className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-xl transition-all shadow-lg shadow-indigo-500/20 active:scale-95"
                         >
-                            Experience EduFlow
+                            Experience Acafort
                         </Link>
                     </li>
                 </ul>

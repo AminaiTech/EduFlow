@@ -33,7 +33,7 @@ export default function Hero() {
                             <p className="text-sm font-bold text-slate-500 uppercase tracking-widest">Available soon on:</p>
                             <div className="flex gap-4">
                                 <Link
-                                    href="https://app.eduflow.com" // Placeholder for web app redirect
+                                    href="https://app.acafort.com" // Placeholder for web app redirect
                                     target="_blank"
                                     className="group relative flex items-center gap-2 bg-slate-900 border border-white/5 px-4 py-2 rounded-xl hover:border-indigo-500/30 transition-all active:scale-95"
                                 >
@@ -48,7 +48,7 @@ export default function Hero() {
                                 </Link>
 
                                 <Link
-                                    href="https://app.eduflow.com" // Placeholder for web app redirect
+                                    href="https://app.acafort.com" // Placeholder for web app redirect
                                     target="_blank"
                                     className="group relative flex items-center gap-2 bg-slate-900 border border-white/5 px-4 py-2 rounded-xl hover:border-emerald-500/30 transition-all active:scale-95"
                                 >
@@ -74,7 +74,7 @@ export default function Hero() {
                         <div className="relative z-10 bg-slate-900/50 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-3 shadow-2xl">
                             <Image
                                 src="dashboard-preview.png"
-                                alt="EduFlow Dashboard"
+                                alt="Acafort Dashboard"
                                 width={800}
                                 height={600}
                                 className="rounded-[2rem] w-full h-auto"

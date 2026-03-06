@@ -49,7 +49,7 @@ export default function Sustainability() {
                             Infrastructure for a <span className="text-emerald-400 leading-normal">Resilient</span> Future
                         </h2>
                         <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-                            Every school using <span className="text-white">EduFlow</span> contributes to a greener, paperless future. We eliminate administrative friction to help you build a more sustainable and efficient education system.
+                            Every school using <span className="text-white">Acafort</span> contributes to a greener, paperless future. We eliminate administrative friction to help you build a more sustainable and efficient education system.
                         </p>
 
                         <div className="space-y-6">

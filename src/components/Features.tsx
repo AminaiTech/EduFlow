@@ -79,16 +79,16 @@ export default function Features() {
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: index * 0.1 }}
-                            whileHover={{ y: -5 }}
-                            className="bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] hover:border-indigo-500/30 transition-all group"
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ delay: index * 0.1, duration: 0.5, ease: "easeOut" }}
+                            whileHover={{ y: -10 }}
+                            className="bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] hover:border-indigo-500/30 hover:bg-slate-900/80 transition-all duration-300 group hover:shadow-2xl hover:shadow-indigo-500/10 cursor-default"
                         >
-                            <div className={`w-14 h-14 ${feature.bg} ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                            <div className={`w-14 h-14 ${feature.bg} ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300`}>
                                 <feature.icon size={28} />
                             </div>
                             <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                            <p className="text-slate-400 leading-relaxed">
+                            <p className="text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">
                                 {feature.description}
                             </p>
                         </motion.div>

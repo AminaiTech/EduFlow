@@ -68,10 +68,11 @@ export default function Hero() {
                     <motion.div
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
+                        whileHover={{ scale: 1.02, rotate: -1 }}
                         transition={{ duration: 1, delay: 0.2 }}
                         className="relative"
                     >
-                        <div className="relative z-10 bg-slate-900/50 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-3 shadow-2xl">
+                        <div className="relative z-10 bg-slate-900/50 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] p-3 shadow-2xl transition-all hover:shadow-indigo-500/20">
                             <Image
                                 src="dashboard-preview.png"
                                 alt="Acafort Dashboard"
